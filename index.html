@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Edgars Skutāns</title>
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
         body { background-color: #0f172a; color: #f8fafc; display: flex; justify-content: center; align-items: center; min-height: 100vh; padding: 20px; }
-        .card { background: #1e293b; padding: 40px; border-radius: 16px; text-align: center; max-width: 400px; width: 100%; box-shadow: 0 10px 25px rgba(0,0,0,0.3); border: 1px solid #334155; }
-        .avatar { width: 100px; height: 100px; border-radius: 50%; margin-bottom: 20px; border: 3px solid #38bdf8; object-fit: cover; }
-        h1 { font-size: 1.8rem; margin-bottom: 8px; color: #f8fafc; }
-        p { color: #94a3b8; font-size: 0.95rem; margin-bottom: 24px; line-height: 1.5; }
-        .links { display: flex; flex-direction: column; gap: 12px; }
-        .btn { display: block; padding: 12px 20px; background: #38bdf8; color: #0f172a; text-decoration: none; border-radius: 8px; font-weight: bold; transition: all 0.2s ease; }
+        .card { background: #1e293b; padding: 40px 24px; border-radius: 20px; text-align: center; max-width: 380px; width: 100%; box-shadow: 0 20px 25px -5px rgba(0,0,0,0.5); border: 1px solid #334155; }
+        .avatar { width: 110px; height: 110px; border-radius: 50%; margin: 0 auto 20px auto; border: 3px solid #38bdf8; object-fit: cover; display: block; }
+        h1 { font-size: 1.75rem; font-weight: 700; margin-bottom: 8px; color: #f8fafc; }
+        p { color: #94a3b8; font-size: 0.95rem; margin-bottom: 28px; line-height: 1.5; }
+        .links { display: flex; flex-direction: column; gap: 14px; }
+        .btn { display: block; padding: 14px 20px; background: #38bdf8; color: #0f172a; text-decoration: none; border-radius: 12px; font-weight: 600; font-size: 1rem; transition: all 0.2s ease; }
         .btn:hover { background: #7dd3fc; transform: translateY(-2px); }
         .btn-outline { background: transparent; color: #f8fafc; border: 1px solid #475569; }
         .btn-outline:hover { background: #334155; border-color: #64748b; }
@@ -20,11 +20,14 @@
 </head>
 <body>
     <div class="card">
-        <img src="https://via.placeholder.com/100" alt="Skutāns" class="avatar">
-        <h1>Skutāns</h1>
+        <!-- Ja tev ir augšupielādēta bilde "bilde.jpg", nomaini "avatar.jpg" uz "bilde.jpg" -->
+        <img src="avatar.jpg" alt="Edgars Skutāns" class="avatar" onerror="this.src='https://ui-avatars.com/api/?name=Edgars+Skutans&background=38bdf8&color=0f172a&size=128'">
+        
+        <h1>Edgars Skutāns</h1>
         <p>Sveiki! Šī ir mana oficiālā vizītkarte tiešsaistē.</p>
+        
         <div class="links">
-            <a href="mailto:epasts@skutans.lv" class="btn">Sazināties e-pastā</a>
+            <a href="mailto:edgars.skutans@gmail.com" class="btn">Sazināties e-pastā</a>
             <a href="https://linkedin.com" target="_blank" class="btn btn-outline">LinkedIn profils</a>
             <a href="https://facebook.com" target="_blank" class="btn btn-outline">Facebook</a>
         </div>
