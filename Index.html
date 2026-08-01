@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skutāns</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body { background-color: #0f172a; color: #f8fafc; display: flex; justify-content: center; align-items: center; min-height: 100vh; padding: 20px; }
+        .card { background: #1e293b; padding: 40px; border-radius: 16px; text-align: center; max-width: 400px; width: 100%; box-shadow: 0 10px 25px rgba(0,0,0,0.3); border: 1px solid #334155; }
+        .avatar { width: 100px; height: 100px; border-radius: 50%; margin-bottom: 20px; border: 3px solid #38bdf8; object-fit: cover; }
+        h1 { font-size: 1.8rem; margin-bottom: 8px; color: #f8fafc; }
+        p { color: #94a3b8; font-size: 0.95rem; margin-bottom: 24px; line-height: 1.5; }
+        .links { display: flex; flex-direction: column; gap: 12px; }
+        .btn { display: block; padding: 12px 20px; background: #38bdf8; color: #0f172a; text-decoration: none; border-radius: 8px; font-weight: bold; transition: all 0.2s ease; }
+        .btn:hover { background: #7dd3fc; transform: translateY(-2px); }
+        .btn-outline { background: transparent; color: #f8fafc; border: 1px solid #475569; }
+        .btn-outline:hover { background: #334155; border-color: #64748b; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="https://via.placeholder.com/100" alt="Skutāns" class="avatar">
+        <h1>Skutāns</h1>
+        <p>Sveiki! Šī ir mana oficiālā vizītkarte tiešsaistē.</p>
+        <div class="links">
+            <a href="mailto:epasts@skutans.lv" class="btn">Sazināties e-pastā</a>
+            <a href="https://linkedin.com" target="_blank" class="btn btn-outline">LinkedIn profils</a>
+            <a href="https://facebook.com" target="_blank" class="btn btn-outline">Facebook</a>
+        </div>
+    </div>
+</body>
+</html>
